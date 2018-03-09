@@ -1,0 +1,14 @@
+{
+  "name": "dupie",
+  "version": "1.0.0",
+  "description": "Disk Usage Pie Graph",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andy Mardell",
+  "license": "ISC",
+  "dependencies": {
+    "cli-pie": "^2.4.0"
+  }
+}
