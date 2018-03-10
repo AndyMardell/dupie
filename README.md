@@ -2,6 +2,8 @@
 
 `dupie` is a nodejs app that presents disk usage and directory size in pie chart form. Everyone loves a pie chart.
 
+![dupie](http://mardell.me/github/dupie.jpg)
+
 # Install `dupie`
 
 ```bash
