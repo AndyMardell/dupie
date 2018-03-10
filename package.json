@@ -4,9 +4,10 @@
   "description": "Disk Usage Pie Graph",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "standard"
   },
-  "author": "Andy Mardell",
+  "author": "Andy Mardell (mardell.me)",
+  "repository": "github:AndyMardell/dupie",
   "license": "ISC",
   "bin": {
     "dupie": "./index.js"
