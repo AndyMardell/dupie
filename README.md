@@ -5,9 +5,7 @@
 # Install `dupie`
 
 ```bash
-git clone git@github.com:AndyMardell/dupie.git
-cd dupie
-npm i -g
+npm i dupie -g
 ```
 
 # Usage
@@ -15,7 +13,7 @@ npm i -g
 [`dupie`](#dupie)  
 [`dupie` $dir](#dupie-dir)  
 [`dupie` disk](#dupie-disk)  
-[`dupie` $diskname](#dupie-disk-name)  
+[`dupie` $diskname](#dupie-diskname)  
 
 ## `dupie`
 
