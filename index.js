@@ -1,8 +1,7 @@
 #!/usr/bin/env node
 
 const program = require('commander')
-const executeDu = require('./lib/execute-du')
-const executeDf = require('./lib/execute-df')
+const execute = require('./lib/execute')
 let dir
 
 program
@@ -28,7 +27,7 @@ program
 dir = (typeof dir === 'undefined' ? '' : dir)
 
 if (dir && dir.substring(0, 4) === 'disk') {
-  executeDf(dir)
+  execute.df(dir)
 } else {
-  executeDu(dir)
+  execute.du(dir)
 }
