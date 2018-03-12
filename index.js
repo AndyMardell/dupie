@@ -20,7 +20,7 @@ program
     console.log('')
     console.log('    $ dupie')
     console.log('    $ dupie ~')
-    console.log('    $ dupie /path/to/dir')
+    console.log('    $ dupie /path/to/dir\\ with\\ spaces')
     console.log('    $ dupie -L 1 /var/www')
     console.log('    $ dupie disk')
     console.log('    $ dupie disk1s1')
@@ -28,9 +28,7 @@ program
   })
   .parse(process.argv)
 
-dir = (typeof dir === 'undefined' ? '' : dir)
-
-if (dir && dir.substring(0, 4) === 'disk') {
+if (typeof dir !== 'undefined' && dir.substring(0, 4) === 'disk') {
   execute.df(dir)
 } else {
   execute.du(dir, program.limit)

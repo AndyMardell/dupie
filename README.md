@@ -19,7 +19,7 @@ npm i dupie -g
 
 ## `dupie`
 
-Runs `dupie` on your current working directory. Similar to `du -d 1`
+Runs `dupie` on your current working directory. Similar to `du -s ./*`
 
 ```bash
 dupie
@@ -27,10 +27,11 @@ dupie
 
 ## `dupie` $dir
 
-Runs `dupie` on a specific directory. Similar to `du -d 1 /path/to/dir`
+Runs `dupie` on a specific directory. Similar to `du -s ./path/to/dir/*`
 
 ```bash
 dupie /path/to/dir
+dupie /path/to/dir\ with\ spaces/
 ```
 
 ## `dupie` disk
