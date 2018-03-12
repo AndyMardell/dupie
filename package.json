@@ -1,6 +1,6 @@
 {
   "name": "dupie",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Disk Usage Pie Graph",
   "main": "index.js",
   "scripts": {
